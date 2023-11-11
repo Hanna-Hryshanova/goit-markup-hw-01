@@ -9,72 +9,78 @@ button {
 }
 /*Main-logo*/
 .main-logo {
-color: var(--NAVY-BLUE, #2E2F42);
+color: #4d5ae5;
 font-family: Raleway, sans-serif;
-font-size: 18;
+font-size: 18px;
 font-weight: 700;
-line-height: 1,16667; 
-letter-spacing: 0.03;
+line-height: 1.17; 
+letter-spacing: 0.03em;
 text-transform: uppercase;
+}
+.main-span {
+color: #2e2f42;
 }
  /*Main-navi*/
 .main-navi {
-color: var(--NAVY-BLUE, #2E2F42);
-font-size: 16;
+color:  #2E2F42;
+font-size: 16px;
 font-weight: 500;
-letter-spacing: 0.02;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 /*Contakt*/
 .main-contacts {
-color: var(--SLATE, #434455);
-font-size: 16;
+color:  #2E2F42;
 font-weight: 400;
-letter-spacing: 0.02;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: 0.02em;
 }
 /*Order service*/
 .order-service {
 color: var(--WHITE, #FFF);
 text-align: center;
-font-size: 56;
+font-size: 56px;
 font-weight: 700;
-line-height: 1,07143;
-letter-spacing: 0.02;
+line-height: 1.07;
+letter-spacing: 0.02em;
 }
 .order-button {
 border-radius: 4;
-background: var(--IRIS, #4D5AE5);
-box-shadow: 0 4 4 0 rgba(0, 0, 0, 0.15);
-color: var(--WHITE, #FFF);
-font-size: 16;
+font-family: "Roboto", sans-serif;
+background: #4D5AE5;
+color: #FFF;
 font-weight: 500;
-letter-spacing: 0.04;
+line-height: 1.5;
+letter-spacing: 0.04em;
 }
 /*Work princoples*/
  /* Header 2 */
  h2 {
-    color: var(--NAVY-BLUE, #2E2F42);
+    color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
     text-align: center;
-    font-size: 36;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 1,11111;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em
     text-transform: capitalize; 
 }
 /* Header 3 */
 h3 {
-color: var(--NAVY-BLUE, #2E2F42);
-font-size: 20;
+color: #2E2F42;
+font-size: 20px;
 font-weight: 500;
 line-height: 1,2;
-letter-spacing: 0.02;
 }
 /* Body */
 body {
-    color: var(--SLATE, #434455);
-    font-family: Roboto;
-    font-size: 16;
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     line-height: 1,5;
-    letter-spacing: 0.02;
+    letter-spacing: 0.02em;
+    background-color: #FFFFFF;
 }
 /*Interaktiv-link-button*/
 .main-navi:hover,
@@ -92,5 +98,4 @@ color: #404BBF;
 .order-button:focus {
     background: #404BBF;
     border-radius: 4px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
