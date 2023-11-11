@@ -1,0 +1,96 @@
+.list {
+    list-style-type: none;
+}
+.link {
+    text-decoration: none;
+}
+button {
+    cursor: pointer;
+}
+/*Main-logo*/
+.main-logo {
+color: var(--NAVY-BLUE, #2E2F42);
+font-family: Raleway, sans-serif;
+font-size: 18;
+font-weight: 700;
+line-height: 1,16667; 
+letter-spacing: 0.03;
+text-transform: uppercase;
+}
+ /*Main-navi*/
+.main-navi {
+color: var(--NAVY-BLUE, #2E2F42);
+font-size: 16;
+font-weight: 500;
+letter-spacing: 0.02;
+}
+/*Contakt*/
+.main-contacts {
+color: var(--SLATE, #434455);
+font-size: 16;
+font-weight: 400;
+letter-spacing: 0.02;
+}
+/*Order service*/
+.order-service {
+color: var(--WHITE, #FFF);
+text-align: center;
+font-size: 56;
+font-weight: 700;
+line-height: 1,07143;
+letter-spacing: 0.02;
+}
+.order-button {
+border-radius: 4;
+background: var(--IRIS, #4D5AE5);
+box-shadow: 0 4 4 0 rgba(0, 0, 0, 0.15);
+color: var(--WHITE, #FFF);
+font-size: 16;
+font-weight: 500;
+letter-spacing: 0.04;
+}
+/*Work princoples*/
+ /* Header 2 */
+ h2 {
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36;
+    font-weight: 700;
+    line-height: 1,11111;
+    letter-spacing: 0.02;
+    text-transform: capitalize; 
+}
+/* Header 3 */
+h3 {
+color: var(--NAVY-BLUE, #2E2F42);
+font-size: 20;
+font-weight: 500;
+line-height: 1,2;
+letter-spacing: 0.02;
+}
+/* Body */
+body {
+    color: var(--SLATE, #434455);
+    font-family: Roboto;
+    font-size: 16;
+    line-height: 1,5;
+    letter-spacing: 0.02;
+}
+/*Interaktiv-link-button*/
+.main-navi:hover,
+.main-contacts:hover{
+color: #404BBF;
+}
+.main-navi:focus,
+.main-contacts:focus{
+color: #404BBF;
+}
+.main-navi:active {
+    text-decoration: underline;
+}
+.order-button:hover,
+.order-button:focus {
+    background: #404BBF;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+}
