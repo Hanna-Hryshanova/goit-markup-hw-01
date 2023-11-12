@@ -63,6 +63,9 @@ letter-spacing: 0.02em;
 color: #404bbf
 }
 /*Order service*/
+.main-order-service {
+background-color: #2E2F42;
+}
 .order-service {
 color: var(--WHITE, #FFF);
 text-align: center;
@@ -100,18 +103,15 @@ letter-spacing: 0.04em;
     letter-spacing: 0.02em;
     background-color: #F4F4FD;
 }
-.work-princoples-li {
-    background-color: #FFFFFF
-}
 /*our team*/
 .our-team {
     color: #2E2F42;
     font-size: 36px;
-    font-size: 20px;
     line-height: 1.11;
     font-weight: 500;
     letter-spacing: 0.02em;
-    text-transform: capitalize; 
+    text-transform: capitalize;
+    text-align: center 
 }
 .background-team {
     background-color: #F4F4FD;
@@ -155,4 +155,14 @@ letter-spacing: 0.04em;
     font-weight: 500;
     line-height: 1.2;
     letter-spacing: 0.02em;
+}
+/*Footer*/
+.footer-background {
+background-color: #2E2F42;
+}
+.foter-logo-span {
+color:#F4F4FD
+}
+.foter-logo-text {
+color: #F4F4FD
 }
