@@ -105,7 +105,7 @@ letter-spacing: 0.04em;
 }
 /*our team*/
 .our-team {
-    color: #2E2F42;
+    color: #434455 ;
     font-size: 36px;
     line-height: 1.11;
     font-weight: 500;
@@ -136,7 +136,8 @@ letter-spacing: 0.04em;
 .info-portfolio { 
     font-size: 16px;
     line-height: 1.5;
-    color: #434455
+    color: #434455;
+    letter-spacing: 0.02em;
 }
 /* Portfolio */
 .main-our-portfolio {
@@ -164,5 +165,9 @@ background-color: #2E2F42;
 color:#F4F4FD
 }
 .foter-logo-text {
+color: #F4F4FD
+}
+.footer-text {
+color: #F4F4FD
 color: #F4F4FD
 }
