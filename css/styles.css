@@ -1,11 +1,22 @@
 .list {
-    list-style-type: none;
+list-style-type: none;
 }
-.link {
+.link,
+.main-navi{
     text-decoration: none;
 }
 button {
     cursor: pointer;
+}
+/* Body */
+body {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    background-color:#FFFFFF;
+    font-family: "Roboto", sans-serif;
+    color:#434455;
 }
 /*Main-logo*/
 .main-logo {
@@ -16,6 +27,13 @@ font-weight: 700;
 line-height: 1.17; 
 letter-spacing: 0.03em;
 text-transform: uppercase;
+text-decoration: none;
+}
+.main-logo:hover,
+.main-span:hover,
+.main-span:focus,
+.main-logo:focus {
+color:#404bbf 
 }
 .main-span {
 color: #2e2f42;
@@ -28,6 +46,10 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+.main-navi:hover,
+.main-navi:focus {
+color: #404bbf
+}
 /*Contakt*/
 .main-contacts {
 color:  #434455;
@@ -35,6 +57,10 @@ font-weight: 400;
 font-style: normal;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+.main-contacts:hover,
+.main-contacts:focus {
+color: #404bbf
 }
 /*Order service*/
 .order-service {
@@ -49,29 +75,29 @@ letter-spacing: 0.02em;
 border-radius: 4;
 font-family: "Roboto", sans-serif;
 background: #4D5AE5;
-color: #FFF;
+color: #FFFFFF;
 font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
+}
+.order-button:hover,
+.order-button:focus {
+    background: #404BBF;
 }
  /* work-princoples */
  .main-work-princoples {
     color: #2E2F42;
     font-size: 20px;
     line-height: 1.2;
-    text-align: center;
     font-weight: 500;
     letter-spacing: 0.02em;
     text-transform: capitalize; 
 }
-/*Work princoples*/
 .work-princoples {
     color: #2E2F42;
     font-size: 16px;
     line-height: 1.5;
-    font-weight: 700;
     letter-spacing: 0.02em;
-    text-transform: capitalize;
     background-color: #F4F4FD;
 }
 .work-princoples-li {
@@ -80,9 +106,9 @@ letter-spacing: 0.04em;
 /*our team*/
 .our-team {
     color: #2E2F42;
+    font-size: 36px;
     font-size: 20px;
-    line-height: 1.2;
-    text-align: center;
+    line-height: 1.11;
     font-weight: 500;
     letter-spacing: 0.02em;
     text-transform: capitalize; 
@@ -97,6 +123,7 @@ letter-spacing: 0.04em;
     font-weight: 500;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    list-style-type: none;
 }
 .main-info {
     color: #2E2F42;
@@ -105,6 +132,12 @@ letter-spacing: 0.04em;
     line-height: 1.2;
     letter-spacing: 0.02em;
     }
+.post,
+.info-portfolio { 
+    font-size: 16px;
+    line-height: 1.5;
+    color: #434455
+}
 /* Portfolio */
 .main-our-portfolio {
     color: #2E2F42;
@@ -117,30 +150,9 @@ letter-spacing: 0.04em;
     background-color: #F4F4FD;
 }
 .main-info-portfolio {
-    color: #434455;
-    font-size: 16px;
+    color:  #2e2f42;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
-/* Body */
-body {
-    color: #434455;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    background-color:#FFFFFF;
-    font-family: "Roboto", sans-serif;
-    color:#434455;
-}
-/*Interaktiv-link-button*/
-.main-contacts:hover {
-color:#404bbf;
-}
-.main-navi:active {
-    text-decoration: underline;
-}
-.order-button:hover,
-.order-button:focus {
-    background: #404BBF;
-    border-radius: 4px;
 }
