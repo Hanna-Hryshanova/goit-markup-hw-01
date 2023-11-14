@@ -29,12 +29,6 @@ letter-spacing: 0.03em;
 text-transform: uppercase;
 text-decoration: none;
 }
-.main-logo:hover,
-.main-span:hover,
-.main-span:focus,
-.main-logo:focus {
-color:#404bbf 
-}
 .main-span {
 color: #2e2f42;
 }
@@ -100,7 +94,6 @@ letter-spacing: 0.04em;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    background-color: #F4F4FD;
 }
 /*our team*/
 .our-team {
@@ -147,7 +140,6 @@ letter-spacing: 0.04em;
     font-weight: 700;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    background-color: #F4F4FD;
 }
 .main-info-portfolio {
     color:  #2e2f42;
@@ -160,9 +152,18 @@ letter-spacing: 0.04em;
 .footer-background {
 background-color: #2E2F42;
 }
-.foter-logo-span {
+.footer-logo-span {
 color:#F4F4FD;
 }
 .footer-text {
 color: #F4F4FD;
+}
+/*Interaction*/
+.main-logo:hover,
+.main-span:hover,
+.main-span:focus,
+.main-logo:focus,
+.footer-logo-span:hover,
+.footer-logo-span:focus {
+color:#404bbf 
 }
