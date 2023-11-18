@@ -1,5 +1,21 @@
-.list {
-list-style-type: none;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ol,
+ul {
+    list-style-type: none;
+    text-decoration: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 .link,
 .main-navi{
@@ -7,6 +23,10 @@ list-style-type: none;
 }
 button {
     cursor: pointer;
+}
+.flex-box {
+    display: flex;
+    flex-wrap: wrap;
 }
 /* Body */
 body {
@@ -20,61 +40,74 @@ body {
 }
 /*Main-logo*/
 .main-logo {
-color: #4d5ae5;
-font-family: Raleway, sans-serif;
-font-size: 18px;
-font-weight: 700;
-line-height: 1.17; 
-letter-spacing: 0.03em;
-text-transform: uppercase;
-text-decoration: none;
+    color: #4d5ae5;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.main-logo-flex-box {
+    display: flex;
+    justify-content: flex-start;
+}
+.nav-flex-box {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.contacts-flex-box {
+    display: flex;
+    justify-content: flex-end;
 }
 .main-span {
-color: #2e2f42;
+    color: #2e2f42;
 }
  /*Main-navi*/
 .main-navi {
-color:  #2E2F42;
-font-size: 16px;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.02em;
+    color:  #2E2F42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .main-navi:hover,
 .main-navi:focus {
-color: #404bbf
+    color: #404bbf
 }
 /*Contakt*/
 .main-contacts {
-color:  #434455;
-font-weight: 400;
-font-style: normal;
-line-height: 1.5;
-letter-spacing: 0.02em;
+    color:  #434455;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 .main-contacts:hover,
 .main-contacts:focus {
-color: #404bbf
+    color: #404bbf
 }
 /*Order service*/
 .main-order-service {
-background-color: #2E2F42;
+    background-color: #2E2F42;
 }
 .order-service {
-color: var(--WHITE, #FFF);
-text-align: center;
-font-size: 56px;
-font-weight: 700;
-line-height: 1.07;
-letter-spacing: 0.02em;
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 .order-button {
-font-family: "Roboto", sans-serif;
-background: #4D5AE5;
-color: #FFFFFF;
-font-weight: 500;
-line-height: 1.5;
-letter-spacing: 0.04em;
+    font-family: "Roboto", sans-serif;
+    background: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
 }
 .order-button:hover,
 .order-button:focus {
@@ -87,7 +120,14 @@ letter-spacing: 0.04em;
     line-height: 1.2;
     font-weight: 500;
     letter-spacing: 0.02em;
-    text-transform: capitalize; 
+    text-transform: capitalize;
+    text-align: center 
+}
+.box-work-princoples {
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
 }
 .work-princoples {
     color:  #434455;
@@ -150,13 +190,13 @@ letter-spacing: 0.04em;
 }
 /*Footer*/
 .footer-background {
-background-color: #2E2F42;
+    background-color: #2E2F42;
 }
 .footer-logo-span {
-color:#F4F4FD;
+    color:#F4F4FD;
 }
 .footer-text {
-color: #F4F4FD;
+    color: #F4F4FD;
 }
 /*Interaction*/
 .main-logo:hover,
@@ -165,5 +205,16 @@ color: #F4F4FD;
 .main-logo:focus,
 .footer-logo-span:hover,
 .footer-logo-span:focus {
-color:#404bbf 
+    color:#404bbf 
+}
+img {
+    display: block;
+}
+.container {
+    width: 1158px;
+
+}
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
