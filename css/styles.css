@@ -18,6 +18,21 @@ ul {
     margin-right: 0;
     padding-left: 0;
 }
+.container {
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15;
+    padding-right: 15px;
+}
+section,
+header,
+footer {
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 img {
     display: block;
 }
@@ -277,16 +292,4 @@ body {
 .footer-logo-span:hover,
 .footer-logo-span:focus {
     color:#404bbf 
-}
-.container {
-    width: 1158px;
-    margin-right: auto;
-    margin-left: auto;
-    padding-left: 15;
-    padding-right: 15px;
-}
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-    width: 1158px;
 }
