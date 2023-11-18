@@ -22,8 +22,7 @@ ul {
     width: 1158px;
     margin-right: auto;
     margin-left: auto;
-    padding-left: 15;
-    padding-right: 15px;
+    padding: 0 15px;
 }
 section,
 header,
@@ -74,11 +73,12 @@ body {
 .main-logo-flex-box {
     display: flex;
     align-items: center;
+    gap: 40px;
 }
 .nav-flex-box {
     display: flex;
     align-items: center;
-    margin-right: 40px;
+    gap: 40px;
 }
 .main-span {
     color: #2e2f42;
@@ -92,6 +92,7 @@ body {
     letter-spacing: 0.02em;
     text-decoration: none;
     padding: 24px 0 24px 0;
+    gap: 40px;
 }
 .main-navi:hover,
 .main-navi:focus {
@@ -170,14 +171,12 @@ body {
 }
 .flex-box-princoples {
     display: flex;
-    margin-right: 24px;
+    gap: 24px;
 }
 .box-work-princoples {
-    width: 264px;
     width: calc((100% - 72px) / 4);
     flex-direction: column;
     align-items: flex-start;
-    margin-right: 24px;
 }
 .work-princoples {
     color:  #434455;
