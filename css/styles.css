@@ -16,6 +16,10 @@ ul {
     margin-bottom: 0;
     margin-left: 0;
     margin-right: 0;
+    padding-left: 0;
+}
+img {
+    display: block;
 }
 .link {
     text-decoration: none;
@@ -274,12 +278,11 @@ body {
 .footer-logo-span:focus {
     color:#404bbf 
 }
-img {
-    display: block;
-}
 .container {
-    margin: 0;
-    padding-left: 15px;
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15;
     padding-right: 15px;
 }
 .section {
