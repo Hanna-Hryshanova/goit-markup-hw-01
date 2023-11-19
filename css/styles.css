@@ -61,7 +61,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    padding: 25px 0 25px 0;
+    padding: 24px 0;
 }
 .main-logo {
     color: #4d5ae5;
