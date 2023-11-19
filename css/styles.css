@@ -31,7 +31,6 @@ footer {
     margin-right: auto;
     margin-left: auto;
 }
-
 img {
     display: block;
 }
@@ -57,7 +56,11 @@ body {
 /*Main-logo*/
 .header {
     border-bottom: 1px solid #E7E9FC;
-    width: 1158px;
+    display: flex;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 .main-logo {
     color: #4d5ae5;
@@ -107,7 +110,6 @@ body {
     letter-spacing: 0.02em;
 }
 .contacts-gap {
-    display: flex;
     margin-right: 40px;
 }
 .main-contacts:hover,
@@ -118,16 +120,19 @@ body {
 .main-order-service {
     background-color: #2E2F42;
     padding: 188px 0;
-    width: 1158px;
+    width: 1440px;
+    flex-shrink: 0;
 }
 .order-service {
     color: var(--WHITE, #FFF);
+    width: 496px;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
-    max-width: 496px;
+    padding-bottom: 48px;
+    margin:auto;
 }
 .order-button {
     font-family: "Roboto", sans-serif;
@@ -141,6 +146,7 @@ body {
     height: 56px;
     background-color:#4d5ae5;
     border-radius: 4px;
+    margin: auto;
 }
 .order-button:hover,
 .order-button:focus {
