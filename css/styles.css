@@ -61,6 +61,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    padding: 25px 0 25px 0;
 }
 .main-logo {
     color: #4d5ae5;
@@ -94,7 +95,6 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    padding: 24px 0 24px 0;
     gap: 40px;
 }
 .main-navi:hover,
@@ -105,9 +105,9 @@ body {
 .main-contacts {
     color:  #434455;
     font-weight: 400;
-    font-style: normal;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    margin-left: auto;
 }
 .contacts-gap {
     margin-right: 40px;
@@ -125,7 +125,7 @@ body {
 }
 .order-service {
     color: var(--WHITE, #FFF);
-    width: 496px;
+    max-width: 496px;
     text-align: center;
     font-size: 56px;
     font-weight: 700;
@@ -153,6 +153,10 @@ body {
     background: #404BBF;
 }
  /* work-princoples */
+
+ .section-pading {
+    padding: 120px 0
+ }
  .main-work-princoples {
     color: #2E2F42;
     font-size: 20px;
@@ -277,7 +281,10 @@ body {
 .footer-background {
     background-color: #2E2F42;
     padding: 100px 0;
-    width: 1158px;
+    width: 1440px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
 }
 .footer-logo-span {
     color:#F4F4FD;
