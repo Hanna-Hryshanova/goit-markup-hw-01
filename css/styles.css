@@ -298,6 +298,7 @@ body {
 }
 .footer-text {
     color: #F4F4FD;
+    width: 264px;
 }
 /*Interaction*/
 .main-logo:hover,
