@@ -61,7 +61,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    padding: 24px 0;
+
 }
 .main-logo {
     color: #4d5ae5;
@@ -83,6 +83,7 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
+    padding: 24px 0;
 }
 .main-span {
     color: #2e2f42;
