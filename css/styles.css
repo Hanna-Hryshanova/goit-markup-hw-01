@@ -225,6 +225,7 @@ body {
 }
 .main-info-padding {
     padding: 32px 0;
+    margin-bottom: 8px;
 }
 .main-info {
     color: #2E2F42;
