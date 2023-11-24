@@ -80,8 +80,8 @@ body {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin-top: 24px;
-    margin-bottom: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .main-span {
     color: #2e2f42;
@@ -94,6 +94,8 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     gap: 40px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .main-navi:hover,
 .main-navi:focus {
@@ -118,8 +120,7 @@ body {
 /*Order service*/
 .main-order-service {
     background-color: #2E2F42;
-    padding-top: 79px;
-    padding-bottom: 188px;
+    padding: 188px 0;
     flex-shrink: 0;
 }
 .order-service {
@@ -155,8 +156,7 @@ body {
  /* work-princoples */
 
  .section-pading {
-    padding-top: 229px;
-    padding-bottom: 120px;
+    padding: 120px 0 120px 0;
  }
  .main-work-princoples {
     color: #2E2F42;
@@ -203,7 +203,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
-    margin-bottom: 72px; 
+    margin-bottom: 72px;
 }
 .background-team {
     background-color: #F4F4FD;
