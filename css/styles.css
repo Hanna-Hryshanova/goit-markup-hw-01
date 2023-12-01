@@ -27,6 +27,7 @@ ul {
 section,
 header,
 footer {
+    max-width: 1440px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -56,6 +57,7 @@ body {
     align-items: center;
     flex-shrink: 0;
     transition: stroke 250ms linear;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 .container-header {
     display: flex;
@@ -96,6 +98,19 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
     font-weight: 500;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+main-navi::after {
+    color: #404bbf;
+    content: '' 
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px; 
+    background-color: #404bbf; 
+    border-radius: 2px; 
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 
 }
 /*Contakt*/
 .main-contacts {
@@ -114,6 +129,9 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
     font-weight: 400;
+}
+.contacts-li-action {
+    transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-li:hover,
 .contacts-li:focus,
@@ -137,6 +155,8 @@ body {
     ),
     url(../images/bacgraund_sections1/people-office.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 .order-service {
     color: var(--WHITE, #FFF);
@@ -164,6 +184,7 @@ body {
     margin-left: auto;
     margin-top: 48px;
     font-weight: 500;
+    transition: background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-button:hover,
 .order-button:focus {
@@ -172,14 +193,16 @@ body {
  /* work-princoples */
 .icon-work-container {
     display: flex;
+    align-items: center;
+    justify-content: center;
     width: 264px;
+    height: 112px;
     border-radius: 4px;
     border: 1px solid #8E8F99;
-    background: #F4F4FD;
+    background-color: #f4f4fd;
+    margin-bottom: 8px;
 }
 .icon-work-princoples {
-    margin-left:auto;
-    margin-right: auto;
     margin-top: 24px;
     margin-bottom: 24px;
 }
