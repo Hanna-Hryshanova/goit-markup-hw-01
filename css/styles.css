@@ -131,7 +131,7 @@ main-navi::after {
     font-weight: 400;
 }
 .contacts-li-action {
-    transition: color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .contacts-li:hover,
 .contacts-li:focus,
@@ -184,7 +184,7 @@ main-navi::after {
     margin-left: auto;
     margin-top: 48px;
     font-weight: 500;
-    transition: background-color 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .order-button:hover,
 .order-button:focus {
@@ -279,7 +279,7 @@ main-navi::after {
     padding-bottom: 32px;
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);}
 .main-info-padding {
-    padding: 8px 0;
+    padding: 32px 0;
 }
 .main-info {
     color: #2E2F42;
@@ -307,15 +307,16 @@ main-navi::after {
 .social-list-item{
     height: 40px;
     width: 40px;
-    background-color: #4D5AE5;
-    border-radius: 100px;
-    padding: 12px;
     transition: stroke 250ms linear;
 }
 .social-list-link{
-    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #4D5AE5;
+    border-radius: 50%;
 }
 .social-list-item:hover,
 .social-list-item:focus {
