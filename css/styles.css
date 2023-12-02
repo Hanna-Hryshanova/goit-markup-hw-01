@@ -439,13 +439,13 @@ main-navi::after {
 }
 .social-list-footer-gap {
     gap: 16px;
-}
-.social-list-footer {
     display: flex;
     justify-content: flex-start;
     align-items: center;
     height: 40px;
     width: 40px;
+}
+.social-list-footer {
     transition: stroke 250ms linear;
 }
 .social-list-link-footer{
