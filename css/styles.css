@@ -322,7 +322,7 @@ main-navi::after {
 }
 .social-list-link:hover,
 .social-list-link:focus {
-  background-color: #31D0AA;
+    background-color: #404bbf;
 }
 .social-list-icon {
     display: flex;
