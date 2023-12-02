@@ -364,16 +364,14 @@ main-navi::after {
 }
 .portfolio-li:hover .overlay {
     transform:translateY(0%)
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .portfolio-shadow {
     border: 1px solid var(--CORNFLOWER, #E7E9FC);
 }
 .portfolio-shadow:hover,
 .portfolio-shadow:fokus {
-    border: 1px solid var(--CLOUD, #F4F4FD);
-    background: var(--WHITE, #FFF);
-    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);    
-    transform: 250ms, cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
 .overlay {
     position: absolute;
@@ -395,7 +393,7 @@ main-navi::after {
 }
 /*Footer*/
 .footer-container{
-    margin-right: 120px;
+    display: flex;
     align-items: baseline;
 }
 .footer-background {
@@ -404,6 +402,9 @@ main-navi::after {
     padding: 100px 0;
     justify-content: center;
     flex-shrink: 0;
+}
+.margin-logo-footer {
+    margin-right: 120px;
 }
 .footer-logo {
     color: #4d5ae5;
