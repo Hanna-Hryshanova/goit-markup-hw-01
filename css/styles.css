@@ -95,13 +95,12 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     font-weight: 500;
-}
-.main-navi-li {
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-main-navi-li::after {
-    color: #404bbf;
+.main-navi-li {
+}
+main-navi::after {
     content: '';
     position: absolute;
     left: 0;
