@@ -437,8 +437,12 @@ main-navi::after {
     letter-spacing: 0.02em;
     margin-bottom: 16px;
 }
-.social-list-footer-main {
+.social-list-footer-gap {
     gap: 16px;
+}
+.social-list-item-footer:hover,
+.social-list-item-footer:focus {
+  background-color: #31D0AA;
 }
 .social-list-footer {
     display: flex;
