@@ -363,15 +363,16 @@ main-navi::after {
     margin-bottom: 8px;
 }
 .portfolio-li:hover .overlay {
-    transform:translateY(0%)
+    transform:translateY(0%);
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 .portfolio-shadow {
-    border: 1px solid var(--CORNFLOWER, #E7E9FC);
+    border: 1px solid#E7E9FC;
 }
 .portfolio-shadow:hover,
 .portfolio-shadow:fokus {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%);
 }
 .overlay {
     position: absolute;
