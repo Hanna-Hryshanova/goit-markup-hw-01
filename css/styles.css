@@ -89,28 +89,26 @@ body {
     color: #2e2f42;
 }
  /*Main-navi*/
-.main-navi {
+ .main-navi {
     color:  #2E2F42;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
     font-weight: 500;
+}
+.main-navi-li {
     position: relative;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-main-navi::after {
+main-navi-li::after {
     color: #404bbf;
-    content: '' 
+    content: '';
     position: absolute;
     left: 0;
     bottom: -1px;
-    height: 4px; 
-    background-color: #404bbf; 
+    height: 4px;
+    background-color: #404bbf;
     border-radius: 2px; 
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1) 
 }
 /*Contakt*/
 .main-contacts {
