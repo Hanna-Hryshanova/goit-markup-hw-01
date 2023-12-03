@@ -125,7 +125,6 @@ body {
     letter-spacing: 0.02em;
     margin-left: auto;
     font-style: normal;
-    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .contacts-li {
     color:  #2E2F42;
@@ -136,6 +135,7 @@ body {
     padding-top: 24px;
     padding-bottom: 24px;
     font-weight: 400;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .contacts-li-action {
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
